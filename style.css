@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   font-family: 'Karla';
+   background-color: hsl(204, 43%, 93%);
+}
+
+.container {
+    font-size: medium;
+    width: 630px;
+}
+.comunidad {
+    padding: 40px 40px;
+    background-color: white;
+}
+.comunidad h1 {
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 25px;
+}
+.comunidad h2 {
+    margin-bottom: 20px;
+    color: hsl(71, 73%, 54%);
+}
+.comunidad p {
+    color:  #C6C7CA;
+}
+.container2 {
+    display: flex;
+
+}
+
+.informacion {
+    padding: 40px;
+    background-color: hsl(179, 82%, 43%);
+    flex-grow: 2;
+    width: 30px;
+    
+}
+.informacion h3 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.informacion p{
+    width: 190px;
+    color: #9EF5F3;
+}
+
+.subscripcion {
+    padding: 40px;
+    background-color: hsl(179, 62%, 43%);
+    flex-grow: 2;
+    width: 30px;
+}
+.subscripcion h3 {
+    margin-bottom: 20px;
+    color: white;
+}
+.subscripcion p {
+    color: white;
+    margin-top: 7px;
+}
+.subscripcion__letra {
+    color: #5DCBCC
+}
+.subscripcion__button {
+    display: block;
+    width: 100%;
+    padding: 14px 0;
+    background: hsl(71, 73%, 54%);
+    margin: auto;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 25px;
+    border-radius: 6px;
+
+}
+
+.subscription__num {
+    word-spacing: 12px;
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+}
